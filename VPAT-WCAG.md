@@ -57,8 +57,8 @@ Technology," also referred to as “Information and Communication Technology”
 The Information Technology Industry Council (ITI) provides the VPAT. Use of the
 template and service mark does not require membership in ITI.
 
-<br>Essential Requirements and Best Practices for Information & Communications Technology (ICT) Vendors
-=======================================================================================================
+Essential Requirements and Best Practices for Information & Communications Technology (ICT) Vendors
+===================================================================================================
 
 This section provides guidance for reporting product conformance for major
 accessibility standards and guidelines using the VPAT® to produce the
