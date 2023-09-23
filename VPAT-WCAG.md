@@ -7,7 +7,7 @@ WCAG Edition
 **Version 2.4Rev**
 
 - [About This Document](#about-this-document)
-- [Essential Requirements and Best Practices for Information & Communications Technology (ICT) Vendors](#essential-requirements-and-best-practices-for-information-communications-technology-ict-vendors)
+- [Essential Requirements and Best Practices for Information & Communications Technology (ICT) Vendors](#essential-requirements-and-best-practices-for-information--communications-technology-ict-vendors)
   - [Getting Started](#getting-started)
   - [Essential Requirements for Authors](#essential-requirements-for-authors)
   - [Best Practices for Authors](#best-practices-for-authors)
