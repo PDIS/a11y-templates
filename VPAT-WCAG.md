@@ -6,24 +6,14 @@ WCAG Edition
 
 **Version 2.4Rev**
 
-[About This Document 1](#about-this-document)
-
-[Essential Requirements and Best Practices for Information & Communications
-Technology (ICT) Vendors
-3](#essential-requirements-and-best-practices-for-information-communications-technology-ict-vendors)
-
-[Getting Started 3](#getting-started)
-
-[Essential Requirements for Authors 3](#essential-requirements-for-authors)
-
-[Best Practices for Authors 6](#best-practices-for-authors)
-
-[Posting the Final Document 8](#posting-the-final-document)
-
-[Table Information for VPAT® Readers 9](#table-information-for-vpat-readers)
-
-[[Company] Accessibility Conformance Report
-10](#company-accessibility-conformance-report)
+- [About This Document](#about-this-document)
+- [Essential Requirements and Best Practices for Information & Communications Technology (ICT) Vendors](#essential-requirements-and-best-practices-for-information-communications-technology-ict-vendors)
+  - [Getting Started](#getting-started)
+  - [Essential Requirements for Authors](#essential-requirements-for-authors)
+  - [Best Practices for Authors](#best-practices-for-authors)
+  - [Posting the Final Document](#posting-the-final-document)
+  - [Table Information for VPAT® Readers](#table-information-for-vpat-readers)
+- [[Company] Accessibility Conformance Report](#company-accessibility-conformance-report)
 
 About This Document
 ===================
