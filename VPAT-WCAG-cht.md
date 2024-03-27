@@ -4,7 +4,7 @@
 WCAG 版
 =======
 
-**2.4 修訂版**
+**2.5 版**
 
 - [關於本文件](#關於本文件)
 - [資通科技 (ICT) 廠商的基本要求與最佳實務做法](#資通科技-ict-廠商的基本要求與最佳實務做法)
@@ -24,6 +24,7 @@ VPAT（自主性產品無障礙報告格式範本）依據不同標準／指引�
 
 - [網頁親和力指引 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211)
 - [網頁親和力指引 2.1](https://www.w3.org/TR/WCAG21)
+- [網頁親和力指引 2.2](https://www.w3.org/TR/WCAG22/)
 
 如果您需要採用不同的標準／指引組合，請使用 [ITI 網站的「無障礙」網頁](https://www.itic.org/policy/accessibility)尋找適當的 VPAT 替代版本。
 
@@ -73,6 +74,7 @@ VPAT 由資訊科技產業委員會 (ITI) 提供。使用這份範本和商標�
     - 適用於此版 VPAT 格式範本的標準／指引為：
       - [網頁親和力指引 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211)，即 WCAG 2.0 (ISO/IEC 40500)
       - [網頁親和力指引 2.1](https://www.w3.org/TR/WCAG21)，即 WCAG 2.1
+      - [網頁親和力指引 2.2](https://www.w3.org/TR/WCAG22/)，即 WCAG 2.2
     - 如果要在報告內涵蓋其他標準／指引，應使用其他適當的 VPAT 版本。
     - 這項資訊可在報告最上方以表格呈現，表格標題設為「標準／指引」，接著指出報告內容涵蓋的標準／指引。這項資訊也可以放在報告的序文。我們在這份 VPAT 格式使用表格為例，在每個可適用的指引加上「（是／否）」，報告編製者可依實際涵蓋情況在各項指引標記為「是」或「否」。
     - 如果報告使用多個指引表格，每個表格都要明示表格中各準則所代表的指引。
@@ -82,12 +84,12 @@ VPAT 由資訊科技產業委員會 (ITI) 提供。使用這份範本和商標�
     - **不支持**：絕大多數產品功能未符合準則。
     - **不適用**：該準則與此產品無關。
 > *註*：填寫 WCAG 表格時，可能會在本來該填寫「不適用」的欄位改填寫成「支持」，這是為了遵循 [WCAG 2.0 理解符合性](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html)的定義：表示若該成功準則沒有可適用的內容，即視為已符合該成功準則。
-    - **未評估**：產品未按照準則進行評估。此專用術語僅得用於 WCAG 2.x 檢測等級 AAA 的欄位。
+    - **未評估**：產品未按照準則進行評估。此專用術語僅得用於 WCAG 檢測等級 AAA 準則的欄位。
   - **各項標準或指引的表格**：揭露對各準則之評估結果的表格。
 5. WCAG 符合性資訊—WCAG 成功準則填答乃根據報告中的符合性檢測等級所擬訂（檢測等級 A、AA、AAA）。
   - 這些表格用來填答：
     - 指定的 WCAG 2.x 指引檢測等級。
-  - 針對 WCAG 2.0 準則提出報告時，可以從表格移除 WCAG 2.1 才有的準則項目，即那些在表格列中標示著「2.1 起」的。
+  - 若僅針對 WCAG 2.0 準則提出報告時，可以從表格移除 WCAG 2.1 及 2.2 才有的準則項目，即那些在表格列中標示著「2.1 及 2.2」或「2.2 起」的。同樣地，若僅針對 WCAG 2.1 準則提出報告時，可以從表格移除標示著「2.2 起」的表格列。
 6. 備註與說明—應該在備註與說明欄位填寫詳細說明，佐證符合程度欄位的填答內容確切真實。
   - 符合程度是「部分支持」或「不支持」時，應在備註明白指出：
     1. 有問題的功能規格
@@ -127,7 +129,7 @@ ITI 建議報告編製者使用 VPAT® 編製無障礙符合性報告時，納�
   - 當某個報告區段不適用於產品，因而省略不納入報告的情況，例如：
     - 第四章：硬體。仍應註解說明該區段的移除原因。
     - 讀卡機跟聲音毫無關係，可以移除 413 節「隱藏式字幕處理技術」準則，只需註明這節準則不適用的原因。
-  - 針對 WCAG 2.0 準則提出報告時，可以從表格移除 WCAG 2.1 才有的準則項目，即那些在表格列中標示著「2.1 起」的。
+  - 若僅針對 WCAG 2.0 準則提出報告時，可以從表格移除 WCAG 2.1 及 2.2 才有的準則項目，即那些在表格列中標示著「2.1 及 2.2」或「2.2 起」的。同樣地，若僅針對 WCAG 2.1 準則提出報告時，可以從表格移除標示著「2.2 起」的表格列。
   - 如果產品未依特定準則檢測等級（例如 AAA）進行評估，可以刪除該檢測等級的表格。
   - 如果要求提出產品無障礙報告的客戶已明確指出不適用某區段的準則，也應該附註說明該區段業已移除。
 - **WCAG 2.x 表格**：WCAG 2.x 準則分成三張表格，分別對應檢測等級 A、檢測等級 AA、檢測等級 AAA。
@@ -151,7 +153,7 @@ ITI 建議報告編製者使用 VPAT® 編製無障礙符合性報告時，納�
 - 正式發表無障礙符合性報告時，請務必移除文件前半部分，即目錄、簡介資訊、相關說明等段落。
 - 檢查 VPAT® 文件所有必要項目是否均已納入：
   - **[公司名稱]無障礙符合性報告**（報告標題）
-  - **（採用 VPAT® 2.4 修訂版）**
+  - **（採用 VPAT® 2.5 版）**
   - **產品名稱／版本**
   - **報告日期**
   - **產品描述**
@@ -179,7 +181,7 @@ ITI 建議報告編製者使用 VPAT® 編製無障礙符合性報告時，納�
 WCAG 版
 =======
 
-**（採用 VPAT® 2.4 修訂版）**
+**（採用 VPAT® 2.5 版）**
 
 產品名稱／版本：
 ----------------
@@ -204,10 +206,11 @@ WCAG 版
 
 本報告包含下列無障礙標準／指引的符合性程度：
 
-| 標準／指引                                                         | 在報告內                                                       |
-|--------------------------------------------------------------------|----------------------------------------------------------------|
+| 標準／指引                                                          | 在報告內                                                          |
+|---------------------------------------------------------------------|-------------------------------------------------------------------|
 | [網頁親和力指引 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211) | 檢測等級 A（是／否） 檢測等級 AA（是／否） 檢測等級 AAA（是／否） |
 | [網頁親和力指引 2.1](https://www.w3.org/TR/WCAG21)                  | 檢測等級 A（是／否） 檢測等級 AA（是／否） 檢測等級 AAA（是／否） |
+| [網頁親和力指引 2.2](https://www.w3.org/TR/WCAG22/)                 | 檢測等級 A（是／否） 檢測等級 AA（是／否） 檢測等級 AAA（是／否） |
 
 專用術語
 --------
@@ -229,8 +232,8 @@ WCAG 2.x 報告
 
 備註：
 
-| **準則**                                                                                                  | **符合程度**  | **備註與說明** |
-|-----------------------------------------------------------------------------------------------------------|---------------|----------------|
+| **準則**                                                                                                   | **符合程度**  | **備註與說明** |
+|------------------------------------------------------------------------------------------------------------|---------------|----------------|
 | [1.1.1 非文字內容](http://www.w3.org/TR/WCAG20/#text-equiv-all)（檢測等級 A）                              |               |                |
 | [1.2.1 純音訊與純視訊（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt)（檢測等級 A）         |               |                |
 | [1.2.2 字幕（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-captions)（檢測等級 A）                      |               |                |
@@ -242,7 +245,7 @@ WCAG 2.x 報告
 | [1.4.2 音訊控制](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio)（檢測等級 A）               |               |                |
 | [2.1.1 鍵盤](http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable)（檢測等級 A）              |               |                |
 | [2.1.2 無鍵盤操作陷阱](http://www.w3.org/TR/WCAG20/#keyboard-operation-trapping)（檢測等級 A）             |               |                |
-| [2.1.4 快捷鍵](https://www.w3.org/TR/WCAG21/#character-key-shortcuts)（檢測等級 A，2.1 起）                 |               |                |
+| [2.1.4 快捷鍵](https://www.w3.org/TR/WCAG21/#character-key-shortcuts)（檢測等級 A，2.1 及 2.2）            |               |                |
 | [2.2.1 計時調整](http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors)（檢測等級 A）                |               |                |
 | [2.2.2 暫停、停止和隱藏](http://www.w3.org/TR/WCAG20/#time-limits-pause)（檢測等級 A）                     |               |                |
 | [2.3.1 閃爍三次或低於閾值](http://www.w3.org/TR/WCAG20/#seizure-does-not-violate)（檢測等級 A）            |               |                |
@@ -250,79 +253,88 @@ WCAG 2.x 報告
 | [2.4.2 網頁標題](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title)（檢測等級 A）                   |               |                |
 | [2.4.3 焦點順序](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order)（檢測等級 A）             |               |                |
 | [2.4.4 鏈結目的（脈絡）](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs)（檢測等級 A）            |               |                |
-| [2.5.1 指標手勢](https://www.w3.org/TR/WCAG21/#pointer-gestures)（檢測等級 A，2.1 起）                      |               |                |
-| [2.5.2 指標取消](https://www.w3.org/TR/WCAG21/#pointer-cancellation)（檢測等級 A，2.1 起）                  |               |                |
-| [2.5.3 標籤名稱](https://www.w3.org/TR/WCAG21/#label-in-name)（檢測等級 A，2.1 起）                         |               |                |
-| [2.5.4 動作啟動](https://www.w3.org/TR/WCAG21/#motion-actuation)（檢測等級 A，2.1 起）                      |               |                |
+| [2.5.1 指標手勢](https://www.w3.org/TR/WCAG21/#pointer-gestures)（檢測等級 A，2.1 及 2.2）                 |               |                |
+| [2.5.2 指標取消](https://www.w3.org/TR/WCAG21/#pointer-cancellation)（檢測等級 A，2.1 及 2.2）             |               |                |
+| [2.5.3 標籤名稱](https://www.w3.org/TR/WCAG21/#label-in-name)（檢測等級 A，2.1 及 2.2）                    |               |                |
+| [2.5.4 動作啟動](https://www.w3.org/TR/WCAG21/#motion-actuation)（檢測等級 A，2.1 及 2.2）                 |               |                |
 | [3.1.1 網頁語言](http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id)（檢測等級 A）                           |               |                |
 | [3.2.1焦點](http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus)（檢測等級 A）                  |               |                |
 | [3.2.2 輸入](http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change)（檢測等級 A）          |               |                |
+| [3.2.6 一致性幫助](https://www.w3.org/TR/WCAG22/#consistent-help)（檢測等級 A，2.2 起）                    |               |                |
 | [3.3.1 識別錯誤](http://www.w3.org/TR/WCAG20/#minimize-error-identified) （檢測等級 A）                    |               |                |
 | [3.3.2 標籤或說明](http://www.w3.org/TR/WCAG20/#minimize-error-cues)（檢測等級 A）                         |               |                |
-| [4.1.1 語法分析](http://www.w3.org/TR/WCAG20/#ensure-compat-parses)（檢測等級 A）                          |               |                |
+| [3.3.7 備援輸入方式](https://www.w3.org/TR/WCAG22/#redundant-entry)（檢測等級 A，2.2 起）                  |               |                |
+| [4.1.1 語法分析](http://www.w3.org/TR/WCAG20/#ensure-compat-parses)（檢測等級 A）<ul><li>WCAG 2.0 及 2.1：一律「支持」</li><li>WCAG 2.2（已刪除）：不適用</li></ul>|支持|對於 WCAG 2.0 及 2.1，依據 2023 年九月份的勘誤說明，本準則一律判定為支持。請參見 [WCAG 2.0 編輯勘誤](https://www.w3.org/WAI/WCAG20/errata/#editorial)及 [WCAG 2.1 編輯勘誤](https://www.w3.org/WAI/WCAG21/errata/#editorial)。|
 | [4.1.2 名稱、角色和值](http://www.w3.org/TR/WCAG20/#ensure-compat-rsv)（檢測等級 A）                       |               |                |
 
 ### 表二：檢測等級 AA 成功準則
 
 備註：
 
-| **準則**                                                                                                       | **符合程度**  | **備註與說明** |
-|----------------------------------------------------------------------------------------------------------------|---------------|----------------|
-| [1.2.4 字幕（現場直播）](http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions)（檢測等級 AA）            |               |                |
-| [1.2.5 音訊描述（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only)（檢測等級 AA）               |               |                |
-| [1.3.4 螢幕方向](https://www.w3.org/TR/WCAG21/#orientation)（檢測等級 AA，2.1 起）                               |               |                |
-| [1.3.5 識別輸入目的](https://www.w3.org/TR/WCAG21/#identify-input-purpose)（檢測等級 AA，2.1 起）                |               |                |
-| [1.4.3 對比值（最小）](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast)（檢測等級 AA）              |               |                |
-| [1.4.4 調整文字尺寸](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale)（檢測等級 AA）                   |               |                |
-| [1.4.5 影像文字](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation)（檢測等級 AA）           |               |                |
-| [1.4.10 流動排版](https://www.w3.org/TR/WCAG21/#reflow)（檢測等級 AA，2.1 起）                                   |               |                |
-| [1.4.11 非文字對比](https://www.w3.org/TR/WCAG21/#non-text-contrast)（檢測等級 AA，2.1 起）                      |               |                |
-| [1.4.12 文字間距](https://www.w3.org/TR/WCAG21/#text-spacing)（檢測等級 AA，2.1 起）                             |               |                |
-| [1.4.13 懸浮或焦點內容](https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus)（檢測等級 AA，2.1 起）          |               |                |
-| [2.4.5 多種方式](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc)（檢測等級 AA）                    |               |                |
-| [2.4.6 標題和標籤](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive)（檢測等級 AA）               |               |                |
-| [2.4.7 焦點可視](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible)（檢測等級 AA）               |               |                |
-| [3.1.2 局部語言](http://www.w3.org/TR/WCAG20/#meaning-other-lang-id)（檢測等級 AA）                             |               |                |
-| [3.2.3 一致的導覽](http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations)（檢測等級 AA）        |               |                |
-| [3.2.4 一致的識別](http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality)（檢測等級 AA）    |               |                |
-| [3.3.3 錯誤建議](http://www.w3.org/TR/WCAG20/#minimize-error-suggestions)（檢測等級 AA）                        |               |                |
-| [3.3.4 錯誤預防（法律、財務、個人資料）](http://www.w3.org/TR/WCAG20/#minimize-error-reversible)（檢測等級 AA） |               |                |
-| [4.1.3 狀態訊息](https://www.w3.org/TR/WCAG21/#status-messages)（檢測等級 AA，2.1 起）                           |               |                |
+| **準則**                                                                                                           | **符合程度**  | **備註與說明** |
+|--------------------------------------------------------------------------------------------------------------------|---------------|----------------|
+| [1.2.4 字幕（現場直播）](http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions)（檢測等級 AA）               |               |                |
+| [1.2.5 音訊描述（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only)（檢測等級 AA）                  |               |                |
+| [1.3.4 螢幕方向](https://www.w3.org/TR/WCAG21/#orientation)（檢測等級 AA，2.1 及 2.2）                             |               |                |
+| [1.3.5 識別輸入目的](https://www.w3.org/TR/WCAG21/#identify-input-purpose)（檢測等級 AA，2.1 及 2.2）              |               |                |
+| [1.4.3 對比值（最小）](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast)（檢測等級 AA）                 |               |                |
+| [1.4.4 調整文字尺寸](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale)（檢測等級 AA）                      |               |                |
+| [1.4.5 影像文字](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation)（檢測等級 AA）              |               |                |
+| [1.4.10 流動排版](https://www.w3.org/TR/WCAG21/#reflow)（檢測等級 AA，2.1 及 2.2）                                 |               |                |
+| [1.4.11 非文字對比](https://www.w3.org/TR/WCAG21/#non-text-contrast)（檢測等級 AA，2.1 及 2.2）                    |               |                |
+| [1.4.12 文字間距](https://www.w3.org/TR/WCAG21/#text-spacing)（檢測等級 AA，2.1 及 2.2）                           |               |                |
+| [1.4.13 懸浮或焦點內容](https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus)（檢測等級 AA，2.1 及 2.2）        |               |                |
+| [2.4.5 多種方式](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc)（檢測等級 AA）                       |               |                |
+| [2.4.6 標題和標籤](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive)（檢測等級 AA）                  |               |                |
+| [2.4.7 焦點可視](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible)（檢測等級 AA）                  |               |                |
+| [2.4.11 焦點不遮蔽（最小）](https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum)（檢測等級 AA，2.2 起）       |               |                |
+| [2.5.7 拖曳動作](https://www.w3.org/TR/WCAG22/#dragging-movements)（檢測等級 AA，2.2 起）                          |               |                |
+| [2.5.8 目標尺寸（最小）](https://www.w3.org/TR/WCAG22/#target-size-minimum)（檢測等級 AA，2.2 起）                 |               |                |
+| [3.1.2 局部語言](http://www.w3.org/TR/WCAG20/#meaning-other-lang-id)（檢測等級 AA）                                |               |                |
+| [3.2.3 一致的導覽](http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations)（檢測等級 AA）           |               |                |
+| [3.2.4 一致的識別](http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality)（檢測等級 AA）       |               |                |
+| [3.3.3 錯誤建議](http://www.w3.org/TR/WCAG20/#minimize-error-suggestions)（檢測等級 AA）                           |               |                |
+| [3.3.4 錯誤預防（法律、財務、個人資料）](http://www.w3.org/TR/WCAG20/#minimize-error-reversible)（檢測等級 AA）    |               |                |
+| [3.3.8 無障礙認證（最小）](https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum)（檢測等級 AA，2.2 起） |               |                |
+| [4.1.3 狀態訊息](https://www.w3.org/TR/WCAG21/#status-messages)（檢測等級 AA，2.1 及 2.2）                         |               |                |
 
 ### 表三：檢測等級 AAA 成功準則
 
 備註：
 
-| **準則**                                                                                                       | **符合程度**  | **備註與說明** |
-|----------------------------------------------------------------------------------------------------------------|---------------|----------------|
-| [1.2.6 手語（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-sign)（檢測等級 AAA）                             |               |                |
-| [1.2.7 延伸音訊描述（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-extended-ad)（檢測等級 AAA）              |               |                |
-| [1.2.8 替代媒體（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-text-doc)（檢測等級 AAA）                     |               |                |
-| [1.2.9 純音訊（現場直播）](http://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only)（檢測等級 AAA）            |               |                |
-| [1.3.6 識別目的](https://www.w3.org/TR/WCAG21/#identify-purpose)（檢測等級 AAA，2.1 起）                         |               |                |
-| [1.4.6 對比值（增強）](http://www.w3.org/TR/WCAG20/#visual-audio-contrast7)（檢測等級 AAA）                     |               |                |
-| [1.4.7 低或無背景音訊](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio)（AAA）                      |               |                |
-| [1.4.8 視覺呈現](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation)（檢測等級 AAA）        |               |                |
-| [1.4.9 影像文字（無例外）](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images)（檢測等級 AAA）      |               |                |
-| [2.1.3 鍵盤（無例外）](http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs)（檢測等級 AAA）               |               |                |
-| [2.2.3 無計時](http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions)（檢測等級 AAA）                          |               |                |
-| [2.2.4 中斷](http://www.w3.org/TR/WCAG20/#time-limits-postponed)（檢測等級 AAA）                                |               |                |
-| [2.2.5 重新認證](http://www.w3.org/TR/WCAG20/#time-limits-server-timeout)（檢測等級 AAA）                       |               |                |
-| [2.2.6 逾時](https://www.w3.org/TR/WCAG21/#timeouts)（檢測等級 AAA，2.1 起）                                     |               |                |
-| [2.3.2 閃爍三次](http://www.w3.org/TR/WCAG20/#seizure-three-times)（檢測等級 AAA）                              |               |                |
-| [2.3.3 來自互動的動畫](https://www.w3.org/TR/WCAG21/#animation-from-interactions)（檢測等級 AAA，2.1 起）        |               |                |
-| [2.4.8 位置](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-location)（檢測等級 AAA）                       |               |                |
-| [2.4.9 鏈結目的（僅鏈結）](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-link)（檢測等級 AAA）             |               |                |
-| [2.4.10 區段標頭](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings)（檢測等級 AAA）                  |               |                |
-| [2.5.5 目標尺寸](https://www.w3.org/TR/WCAG21/#target-size)（檢測等級 AAA，2.1 起）                              |               |                |
-| [2.5.6 並行輸入機制](https://www.w3.org/TR/WCAG21/#concurrent-input-mechanisms)（檢測等級 AAA，2.1 起）          |               |                |
-| [3.1.3 特殊詞彙](http://www.w3.org/TR/WCAG20/#meaning-idioms)（檢測等級 AAA）                                   |               |                |
-| [3.1.4 縮寫](http://www.w3.org/TR/WCAG20/#meaning-located)（檢測等級 AAA）                                      |               |                |
-| [3.1.5 閱讀程度](http://www.w3.org/TR/WCAG20/#meaning-supplements)（檢測等級 AAA）                              |               |                |
-| [3.1.6 發音](http://www.w3.org/TR/WCAG20/#meaning-pronunciation)（檢測等級 AAA）                                |               |                |
-| [3.2.5 依請求變更](http://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context)（檢測等級 AAA） |               |                |
-| [3.3.5 協助](http://www.w3.org/TR/WCAG20/#minimize-error-context-help)（檢測等級 AAA）                          |               |                |
-| [3.3.6 錯誤預防（全部）](http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all)（檢測等級 AAA）            |               |                |
+| **準則**                                                                                                             | **符合程度**  | **備註與說明** |
+|----------------------------------------------------------------------------------------------------------------------|---------------|----------------|
+| [1.2.6 手語（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-sign)（檢測等級 AAA）                                  |               |                |
+| [1.2.7 延伸音訊描述（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-extended-ad)（檢測等級 AAA）                   |               |                |
+| [1.2.8 替代媒體（預錄）](http://www.w3.org/TR/WCAG20/#media-equiv-text-doc)（檢測等級 AAA）                          |               |                |
+| [1.2.9 純音訊（現場直播）](http://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only)（檢測等級 AAA）                 |               |                |
+| [1.3.6 識別目的](https://www.w3.org/TR/WCAG21/#identify-purpose)（檢測等級 AAA，2.1 及 2.2）                         |               |                |
+| [1.4.6 對比值（增強）](http://www.w3.org/TR/WCAG20/#visual-audio-contrast7)（檢測等級 AAA）                          |               |                |
+| [1.4.7 低或無背景音訊](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio)（檢測等級 AAA）                   |               |                |
+| [1.4.8 視覺呈現](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation)（檢測等級 AAA）             |               |                |
+| [1.4.9 影像文字（無例外）](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images)（檢測等級 AAA）           |               |                |
+| [2.1.3 鍵盤（無例外）](http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs)（檢測等級 AAA）                    |               |                |
+| [2.2.3 無計時](http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions)（檢測等級 AAA）                               |               |                |
+| [2.2.4 中斷](http://www.w3.org/TR/WCAG20/#time-limits-postponed)（檢測等級 AAA）                                     |               |                |
+| [2.2.5 重新認證](http://www.w3.org/TR/WCAG20/#time-limits-server-timeout)（檢測等級 AAA）                            |               |                |
+| [2.2.6 逾時](https://www.w3.org/TR/WCAG21/#timeouts)（檢測等級 AAA，2.1 及 2.2）                                     |               |                |
+| [2.3.2 閃爍三次](http://www.w3.org/TR/WCAG20/#seizure-three-times)（檢測等級 AAA）                                   |               |                |
+| [2.3.3 來自互動的動畫](https://www.w3.org/TR/WCAG21/#animation-from-interactions)（檢測等級 AAA，2.1 及 2.2）        |               |                |
+| [2.4.8 位置](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-location)（檢測等級 AAA）                            |               |                |
+| [2.4.9 鏈結目的（僅鏈結）](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-link)（檢測等級 AAA）                  |               |                |
+| [2.4.10 區段標頭](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings)（檢測等級 AAA）                       |               |                |
+| [2.4.12 焦點不遮蔽（加強）](https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced)（檢測等級 AAA，2.2 起）       |               |                |
+| [2.4.13 焦點外觀](https://www.w3.org/TR/WCAG22/#focus-appearance)（檢測等級 AAA，2.2 起）                            |               |                |
+| [2.5.5 目標尺寸](https://www.w3.org/TR/WCAG21/#target-size)（檢測等級 AAA，2.1 及 2.2）                              |               |                |
+| [2.5.6 並行輸入機制](https://www.w3.org/TR/WCAG21/#concurrent-input-mechanisms)（檢測等級 AAA，2.1 及 2.2）          |               |                |
+| [3.1.3 特殊詞彙](http://www.w3.org/TR/WCAG20/#meaning-idioms)（檢測等級 AAA）                                        |               |                |
+| [3.1.4 縮寫](http://www.w3.org/TR/WCAG20/#meaning-located)（檢測等級 AAA）                                           |               |                |
+| [3.1.5 閱讀程度](http://www.w3.org/TR/WCAG20/#meaning-supplements)（檢測等級 AAA）                                   |               |                |
+| [3.1.6 發音](http://www.w3.org/TR/WCAG20/#meaning-pronunciation)（檢測等級 AAA）                                     |               |                |
+| [3.2.5 依請求變更](http://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context)（檢測等級 AAA）      |               |                |
+| [3.3.5 協助](http://www.w3.org/TR/WCAG20/#minimize-error-context-help)（檢測等級 AAA）                               |               |                |
+| [3.3.6 錯誤預防（全部）](http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all)（檢測等級 AAA）                 |               |                |
+| [3.3.9 無障礙認證（加強）](https://www.w3.org/TR/WCAG22/#accessible-authentication-enhanced)（檢測等級 AAA，2.2 起） |               |                |
 
 法律免責聲明（公司）
 --------------------
