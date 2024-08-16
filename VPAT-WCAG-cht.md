@@ -258,7 +258,7 @@ WCAG 2.x 報告
 | [2.5.3 標籤名稱](https://www.w3.org/TR/WCAG21/#label-in-name)（檢測等級 A，2.1 及 2.2）                    |               |                |
 | [2.5.4 動作啟動](https://www.w3.org/TR/WCAG21/#motion-actuation)（檢測等級 A，2.1 及 2.2）                 |               |                |
 | [3.1.1 網頁語言](http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id)（檢測等級 A）                           |               |                |
-| [3.2.1焦點](http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus)（檢測等級 A）                  |               |                |
+| [3.2.1 焦點](http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus)（檢測等級 A）                 |               |                |
 | [3.2.2 輸入](http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change)（檢測等級 A）          |               |                |
 | [3.2.6 一致性幫助](https://www.w3.org/TR/WCAG22/#consistent-help)（檢測等級 A，2.2 起）                    |               |                |
 | [3.3.1 識別錯誤](http://www.w3.org/TR/WCAG20/#minimize-error-identified) （檢測等級 A）                    |               |                |
