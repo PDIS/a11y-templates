@@ -1,2 +1,4 @@
 # a11y-templates
-localized document templates for accessibility related documents and reports
+Localized document templates for accessibility related documents and reports
+
+VPAT source files are available at https://www.itic.org/policy/accessibility/vpat
